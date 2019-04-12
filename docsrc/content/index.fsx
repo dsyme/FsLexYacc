@@ -7,6 +7,11 @@
 FsLex, FsYacc
 =============
 
+FsLex and FsYacc are lexer and parser generator tools for F#.  They are used to build the F# compiler and other tools.
+You can use them to build your own parsers as well.
+
+Documentation:
+
  * [FsLex docs](fslex.html) 
  * [FsYacc docs](fsyacc.html) 
  * [API Reference](reference/index.html)

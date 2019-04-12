@@ -44,10 +44,10 @@ let contentOut = output + "/content"
 
 // When called from 'build.fsx', use the public project URL as <root>
 // otherwise, use the current 'output' directory.
-#if RELEASE
-let root = website
-#else
+#if DEBUG
 let root = "file://" + output
+#else
+let root = website
 #endif
 
 // Where to look for *.csproj templates (in this order)
